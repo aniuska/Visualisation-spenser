@@ -17,10 +17,6 @@ The aim of this project is to create an innovative visualisation engine which co
 * Filter by ethnicity
 * Filter by geography, clicking on the map
  
-
-
-
-
 ## Usage
 
 ### Prerequisites
@@ -52,39 +48,7 @@ The population projection data were generated using the [ukpopulation](https://g
 #### Data processing
 The generated dataset for population structure was processed and transformed, in Python, to a more convenient data structure to avoid complex calculations and pre-processing on the visualisation engine. Two new columns were added to the lookup dataset, the project population counts and year, for the choropleth Map. The VARIANT column was also added to the projection variants dataset. See the resulted datasets bel
 
-###### Population structure dataset
-
-
-```python
-import pandas as pd
-
-lookup = pd.read_csv("M:\data\LADpopulations.csv")
-variants = pd.read_csv("M:\data\Allprojections.csv")
-pop_structure = pd.read_csv("M:\data\pop_years__rangeAges.csv")
-```
-
-
-```python
-pop_structure.head(10)
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+##### Population structure dataset
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -421,7 +385,7 @@ lookup.head(10)
 See below an animated demo for Tower Hamlets Borough of London to ilustre two working examples.
 
 ###### Filtering by years
-![Filtering by years](M:\data\Years.gif)
+![Filtering by years](Years.gif)
 
 ###### Filtering by Ethnicity
 ![Filtering by Ethnicity](M:\data\Eth.gif)
