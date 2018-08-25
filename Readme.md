@@ -331,10 +331,10 @@ The generated dataset for population structure was processed and transformed, in
 
 See below an animated demo for Tower Hamlets Borough of London to ilustre two working examples.
 
-###### Filtering by years
+##### Filtering by years
 ![Filtering by years](Years.gif)
 
-###### Filtering by Ethnicity
+##### Filtering by Ethnicity
 ![Filtering by Ethnicity](Eth.gif)
   
 
