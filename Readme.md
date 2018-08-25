@@ -145,32 +145,7 @@ The generated dataset for population structure was processed and transformed, in
 </table>
 </div>
 
-
-
-###### Projection variants dataset
-
-
-```python
-variants.head(10)
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+##### Projection variants dataset
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -256,32 +231,7 @@ variants.head(10)
 </table>
 </div>
 
-
-
 ##### Lookup dataset
-
-
-```python
-lookup.head(10)
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -376,9 +326,6 @@ lookup.head(10)
     </tr>
   </tbody>
 </table>
-</div>
-
-
 
 ## Demo
 
@@ -388,6 +335,6 @@ See below an animated demo for Tower Hamlets Borough of London to ilustre two wo
 ![Filtering by years](Years.gif)
 
 ###### Filtering by Ethnicity
-![Filtering by Ethnicity](M:\data\Eth.gif)
+![Filtering by Ethnicity](Eth.gif)
   
 
