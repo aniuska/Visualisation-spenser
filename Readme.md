@@ -1,9 +1,9 @@
 
-# Designing and implementing an innovative visualisation engine for SPENSER
+# Designing and implementing an innovative visualisation engine
 
-SPENSER, Synthetic Population Estimation and Scenario Projection Model, is is a comprehensive synthetic population estimation and projection model that employs dynamic microsimulation techniques. SPENSER provides a set of tools to allows the user to customise scenario parametrs to generate a scenario projection output and visualise it. 
+The Synthetic Population Estimation and Scenario Projection Model (SPENSER) is a comprehensive synthetic population estimation and projection model that employs dynamic microsimulation techniques. SPENSER provides a set of tools that allows the user to customise scenario parameters to generate a scenario projection output and visualise it. 
 
-The aim of this project is to create an innovative visualisation engine which combines interactive maps and projections plots. This visualisation engine will communicate findings effectively to support the evidence-based decision making as well as produce more explainable simulation results, revealing their usefulness.
+The aim of this project is to create an innovative visualisation engine for SPENSER which combines interactive maps and projections plots. This visualisation engine will communicate findings effectively to support the evidence-based decision making as well as produce more explainable simulation results, revealing the usefulness of such results.
 
 ### A web-based dashboard-like interactive visualistion tool to display:
  
@@ -329,7 +329,7 @@ The generated dataset for population structure was processed and transformed, in
 
 ## Demo
 
-See below an animated demo for Tower Hamlets Borough of London to ilustre two working examples.
+Below, we offer a demo for Tower Hamlets Borough of London, England, to illustrate the interaction with the application and show how the data is visualised. However, this visualisation engine can be extended to any geography. 
 
 ##### Filtering by years
 ![Filtering by years](Years.gif)
