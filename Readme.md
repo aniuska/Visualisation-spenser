@@ -329,7 +329,7 @@ The generated dataset for population structure was processed and transformed, in
 
 ## Demo
 
-Below, we offer a demo for Tower Hamlets Borough of London, England, to illustrate the interaction with the application and show how the data is visualised. However, this visualisation engine can be extended to any geography. 
+Below, we offer a demo for Tower Hamlets Borough of London, England, to illustrate the interaction with the application and show how the data is visualised. However, this visualisation engine can be extended to any country or geography unit. 
 
 ##### Filtering by years
 ![Filtering by years](Years.gif)
